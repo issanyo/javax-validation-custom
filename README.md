@@ -6,7 +6,7 @@ This validator is a variation of @FutureOrPresent validator, it supports a gap e
 
 ## Usage
 In the following example, a gap of 60 seconds is used, which means if we receive a request at time T, this will be valid if T > NOW - 60 seconds
-`
+```
 @FutureOrPresentWithMargin(margin=60)
 DateTime myfield;
-`
+```
